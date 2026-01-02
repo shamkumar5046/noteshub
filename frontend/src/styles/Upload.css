@@ -1,0 +1,56 @@
+.upload-container {
+  min-height: 100vh;
+  background: var(--light-gray);
+}
+
+.upload-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.upload-card {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: var(--shadow-lg);
+}
+
+.upload-card h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+  font-size: 28px;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.upload-card form {
+  margin-top: 30px;
+}
+
+.upload-card .btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.file-info {
+  margin-top: 10px;
+  padding: 10px;
+  background: var(--light-gray);
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .upload-card {
+    padding: 20px;
+  }
+}
+
